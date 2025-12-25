@@ -97,7 +97,7 @@ function AlarmOverlay({ children }: AlarmOverlayProps) {
         transition={{ duration: 0.1, repeat: Infinity }}
       >
         <motion.div
-          className="absolute left-0 right-0 h-32 bg-gradient-to-b from-transparent via-accent-red/10 to-transparent"
+          className="absolute left-0 right-0 h-32 bg-linear-to-b from-transparent via-accent-red/10 to-transparent"
           animate={{ y: ['-100%', '100vh'] }}
           transition={{ duration: 4, repeat: Infinity, ease: 'linear' }}
         />
