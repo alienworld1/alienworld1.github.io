@@ -107,18 +107,12 @@ const PERSONNEL_DATA = {
     {
       id: 'INT-004',
       label: 'SPACE EXPLORATION',
-      icon: '▤',
-      category: 'PERSONAL',
-    },
-    {
-      id: 'INT-005',
-      label: 'SPACE EXPLORATION',
       icon: '◉',
       category: 'PERSONAL',
     },
     {
-      id: 'INT-006',
-      label: 'RETRO COMPUTING',
+      id: 'INT-005',
+      label: 'EMULATION',
       icon: '▦',
       category: 'TECHNICAL',
     },
