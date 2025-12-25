@@ -6,7 +6,7 @@ import DecryptionLoader from '../components/about/DecryptionLoader';
 import DossierHeader from '../components/about/DossierHeader';
 import ServiceRecord from '../components/about/ServiceRecord';
 import TechnicalClearances from '../components/about/TechnicalClearances';
-import DeploymentHistory from '../components/about/DeploymentHistory';
+// import DeploymentHistory from '../components/about/DeploymentHistory';
 import PsychProfile from '../components/about/PsychProfile';
 
 export default function About() {
