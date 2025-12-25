@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
 
-import { About, Projects, Contact, LandingPage } from './pages';
+import { About, Projects, Contact, LandingPage, NotFound } from './pages';
 
 export const router = createBrowserRouter([
   {
@@ -18,5 +18,9 @@ export const router = createBrowserRouter([
   {
     path: '/contact',
     element: <Contact />,
+  },
+  {
+    path: '*',
+    element: <NotFound />,
   },
 ]);

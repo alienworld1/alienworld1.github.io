@@ -61,7 +61,7 @@ function ChannelLink({
         <div className="flex items-center gap-4 flex-1 min-w-0">
           {/* Access Code */}
           <div
-            className="flex-shrink-0 w-12 h-12 flex items-center justify-center 
+            className="shrink-0 w-12 h-12 flex items-center justify-center 
                           bg-secondary border border-accent-blue/30 
                           group-hover:border-accent-gold/50 group-hover:bg-accent-gold/10 
                           transition-all duration-300"
@@ -101,7 +101,7 @@ function ChannelLink({
         </div>
 
         {/* Right side - Status and protocol */}
-        <div className="flex-shrink-0 flex items-center gap-4">
+        <div className="shrink-0 flex items-center gap-4">
           {/* Protocol */}
           <div className="hidden md:block text-right">
             <div className="text-[8px] text-text/30 tracking-wider mb-1">
